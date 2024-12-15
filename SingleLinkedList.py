@@ -17,10 +17,10 @@ class SinglyLinkedList:
         if not self.head:
             self.head = new_node
             return
-        current = self.head
-        while current.next:
-            current = current.next
-        current.next = new_node
+        temp = self.head
+        while temp.next:
+            temp = temp.next
+        temp.next = new_node
 
     def insert_at_position(self, position, data):
         if position == 1:
