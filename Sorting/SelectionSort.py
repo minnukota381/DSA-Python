@@ -10,4 +10,3 @@ def selection_sort(arr):
 arr = list(map(int, input("Enter the array elements separated by space: ").split()))
 selection_sort(arr)
 print("Sorted array:", arr)
-git 
